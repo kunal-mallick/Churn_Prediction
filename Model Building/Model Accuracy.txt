@@ -1,3 +1,5 @@
+# Before Hyperparameter Tuning
+
 Creating Model With LogisticRegression()
 Training Accuracy of are Model is : 0.8555454130534003
 Testing Accuracy of are Model is : 0.8870636550308009
@@ -81,3 +83,23 @@ Testing Accuracy of are Model is : 0.8870636550308009
     accuracy                           0.89       487
    macro avg       0.44      0.50      0.47       487
 weighted avg       0.79      0.89      0.83       487
+
+# After Hyperparameter Tuning
+
+Creating Model With AdaBoostClassifier(estimator=DecisionTreeClassifier(max_depth=4,
+                                                    max_features='auto',
+                                                    min_samples_leaf=3,
+                                                    min_samples_split=5,
+                                                    min_weight_fraction_leaf=0,
+                                                    splitter='random'),
+                   learning_rate=1, n_estimators=100)
+Training Accuracy of are Model is : 0.877225011410315
+Testing Accuracy of are Model is : 0.8685831622176592
+              precision    recall  f1-score   support
+
+           0       0.89      0.98      0.93       432
+           1       0.09      0.02      0.03        55
+
+    accuracy                           0.87       487
+   macro avg       0.49      0.50      0.48       487
+weighted avg       0.80      0.87      0.83       487
