@@ -10,6 +10,9 @@ from sklearn.pipeline import Pipeline, make_pipeline
 with open('style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
+def output():
+    st.text('the person is less likly to chrun')
+
 def main():
     st.slider('Voice Message', 0, 52)
     
@@ -27,9 +30,8 @@ def main():
     voice_plan = check[0].checkbox("Voice Plan", value=False)
     intl_plan = check[1].checkbox("Int Plan", value=False)
 
-    st.button('predect', on_click=None)
-
-    st.text('the person is less likly to chrun')
+    if st.button('Predict'):
+        st.text('person is less lekly to chrun')
 
 if __name__ == '__main__':
 
