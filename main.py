@@ -1,7 +1,7 @@
 import pickle
 import pandas as pd
 import streamlit as st
-from sklearn.preprocessing import StandardScaler
+#from sklearn.preprocessing import StandardScaler
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline, make_pipeline
 
