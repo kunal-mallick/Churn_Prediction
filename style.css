@@ -11,3 +11,11 @@
 footer{
     visibility: hidden;
 }
+
+[data-testid="stText"]{
+    color: #000;
+}
+
+[data-testid="block-container"]{
+    color: #4FEABB;
+}

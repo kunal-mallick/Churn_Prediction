@@ -31,8 +31,6 @@ def main():
 
     st.text('the person is less likly to chrun')
 
-    #st.image("https://raw.githubusercontent.com/kunal-mallick/Churn_Prediction/working/img/Frame%202.png")
-
 if __name__ == '__main__':
 
     main()    
