@@ -14,7 +14,7 @@ footer{
 
 [data-testid="stText"]{
     color: #000;
-    size: 28;
+    font-size: 28px;
 }
 
 [data-testid="block-container"]{
