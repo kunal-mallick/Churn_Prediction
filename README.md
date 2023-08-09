@@ -1,5 +1,19 @@
 # Churn_Prediction
-> Outline a brief description of your project.
+> We are proud to introduce our customer churn prediction tool, ccp.io. This tool uses a KNN model at the backend and predicts the probability of a customer staying with the company.
+
+To use this tool, you just need to enter the following data:
+
+- How many voice messages the customer received
+- Total number of international minutes
+- Total number of international calls
+- Total number of day minutes
+- Total amount of day charges
+- Total number of evening minutes
+- Total number of customer calls
+- Whether the customer has a voice plan or not
+- Whether the customer has an international plan or not
+
+After entering this data, the tool will predict the probability of the customer staying with the company. You can use this information to improve your customer retention strategies and increase your revenue.
 > Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
